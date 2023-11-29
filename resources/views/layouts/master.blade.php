@@ -8,7 +8,7 @@
   <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>@yield('title')</title>
 
-  <meta name="keywords" content="Группа, Группа Компаний, холдинг, вселенная, Таджикистан, финансы, вклад в общество, миссия, видение, ценности, проекты, карьера, развитие страны, Душанбе" />
+  <meta name="keywords" content="Группа, Группа Компаний, холдинг, вселенная, Таджикистан, финансы, вклад в общество, миссия, видение, ценности, карьера, развитие страны, Душанбе" />
   <meta property="og:site_name" content="Коиноти нав">
   <meta property="og:type" content="object" />
   <meta name="twitter:card" content="summary_large_image">

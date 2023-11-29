@@ -46,7 +46,7 @@
         <tr>
           <td>4</td>
           <td>
-            <a href="{{ route('admin.banners', ['action' => 'show', 'page' => 'projects']) }}">Проекты</a>
+            <a href="{{ route('admin.banners', ['action' => 'show', 'page' => 'projects']) }}">Компании</a>
           </td>
         </tr>
         <tr>

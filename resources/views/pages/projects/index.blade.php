@@ -1,7 +1,7 @@
 @extends('layouts.master')
 
 @section('title')
-  КОИНОТИ НАВ | Проекты
+  КОИНОТИ НАВ | Компании
 @endsection
 
 @section('content')
@@ -18,7 +18,7 @@
       </video>
       <div class="board__container container">
         <div class="projects-page__board-content">
-          <h2>Наши проекты</h2>
+          <h2>Наши компании</h2>
           <p>Развитие - ключ к эволюции</p>
         </div>
         <button
@@ -34,7 +34,7 @@
     <section class="section-template container">
       <div class="section-template__content">
         <div class="content">
-          <h2>Наши проекты</h2>
+          <h2>Наши компании</h2>
           <p>Мы несём инновации в нашей ДНК. Чтобы продвигаться и быть конкурентоспособными,<br>
             мы должны анализировать рынок, развивать наши технологии, адаптироваться к новым<br>
             временам и потребностям наших клиентов.</p>

@@ -9,11 +9,11 @@
       <li class="page__breadcrumb">
         <a href="{{ route('main') }}">Главная =></a>
       </li>
-      <li class="page__breadcrumb page__breadcrumb--current">Проекты</li>
+      <li class="page__breadcrumb page__breadcrumb--current">Компании</li>
     </ul>
 
     <div class="page__link-wrapper" style="padding: 0 2px">
-      <h1 class="page__title">Проекты</h1>
+      <h1 class="page__title">Компании</h1>
       <a class="page__link" href="{{ route('admin.projects', ['action' => 'create']) }}">Добавить</a>
     </div>
 

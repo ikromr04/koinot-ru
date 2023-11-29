@@ -88,7 +88,7 @@
 
         <li class="page-nav__item {{ $route == 'projects' ? 'page-nav__item--current' : '' }}">
           <a class="page-nav__link" href="{{ route('projects') }}">
-            Проекты
+            Компании
           </a>
         </li>
 

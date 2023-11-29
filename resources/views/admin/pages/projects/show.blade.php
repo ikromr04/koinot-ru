@@ -10,7 +10,7 @@
         <a href="{{ route('main') }}">Главная =></a>
       </li>
       <li class="page__breadcrumb">
-        <a href="{{ route('admin.projects') }}">Проекты =></a>
+        <a href="{{ route('admin.projects') }}">Компании =></a>
       </li>
       <li class="page__breadcrumb page__breadcrumb--current">{{ $data->project ? 'Редактирование' : 'Добавление' }}</li>
     </ul>

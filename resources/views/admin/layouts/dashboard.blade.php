@@ -14,7 +14,7 @@
       </li>
 
       <li class="dashboard__menu-item {{ $route == 'admin.projects' ? 'dashboard__menu-item--current' : '' }}">
-        <a class="dashboard__link" href="{{ route('admin.projects') }}">Проекты</a>
+        <a class="dashboard__link" href="{{ route('admin.projects') }}">Компании</a>
       </li>
 
       <li class="dashboard__menu-item {{ $route == 'admin.contributions' ? 'dashboard__menu-item--current' : '' }}">

@@ -145,7 +145,7 @@
     <section class="main-page__projects">
       <div class="container">
         <div class="content">
-          <h2>Наши проекты</h2>
+          <h2>Наши компании</h2>
           <p class="main-page__news-description">Создание новых рабочих мест, реализация инфраструктурных проектов,<br>
             прямые инвестиции, то, что мы делаем с самого первого дня основания<br>
             Группы компаний "КОИНОТИ НАВ".</p>
@@ -175,7 +175,7 @@
           </div>
         @endif
 
-        <a class="main-page__more-link" href="{{ route('projects') }}">Все наши проекты</a>
+        <a class="main-page__more-link" href="{{ route('projects') }}">Все наши компании</a>
       </div>
     </section>
   </main>

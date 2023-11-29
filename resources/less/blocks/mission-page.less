@@ -1,0 +1,142 @@
+.mission-page {
+  margin-bottom: 128px;
+
+  @media (max-width: @device-lg) {
+    margin-bottom: 80px;
+  }
+
+  @media (max-width: @device-sm) {
+    margin-bottom: 32px;
+  }
+}
+
+.mission-page__board {
+  z-index: 1;
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: (rgba(29, 29, 29, 0.7));
+  }
+}
+
+.mission-page__board-content {
+  min-height: 22px;
+
+  h2 {
+    font-weight: 700;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 16px;
+
+    @media (max-width: @device-xl) {
+      font-size: 36px;
+    }
+
+    @media (max-width: @device-lg) {
+      font-size: 32px;
+    }
+
+    @media (max-width: @device-sm) {
+      font-size: 26px;
+    }
+  }
+
+  p {
+    font-weight: 300;
+    font-size: 28px;
+    margin: 0;
+
+    @media (max-width: @device-xl) {
+      font-size: 24px;
+    }
+
+    @media (max-width: @device-lg) {
+      br {
+        display: none;
+      }
+    }
+  }
+}
+
+.mission-page__content {
+  margin-top: 32px;
+  margin-bottom: 64px;
+
+  @media (max-width: @device-md) {
+    br {
+      display: none;
+    }
+  }
+
+  @media (max-width: @device-sm) {
+    margin-top: 24px;
+    margin-bottom: 32px;
+  }
+}
+
+.mission-page__value-list {
+  list-style: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+  color: @basic-white;
+
+  @media (max-width: @device-xl) {
+    gap: 24px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: @device-md) {
+    grid-template-columns: 1fr;
+  }
+
+  @media (max-width: @device-sm) {
+    gap: 16px;
+  }
+}
+
+.mission-page__value-item {
+  position: relative;
+  border-radius: 4px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 54px 48px;
+
+  .content,
+  .simditor {
+    z-index: 1;
+  }
+
+  &::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(fade(@secondary, 85%),
+        fade(@secondary, 85%));
+    opacity: 1;
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+
+  &:hover::after {
+    opacity: 0.8;
+  }
+
+  @media (max-width: @device-sm) {
+    padding: 24px;
+  }
+}

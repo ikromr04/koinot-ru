@@ -1,0 +1,139 @@
+.page-footer {
+  background-color: @basic-white;
+  overflow-x: hidden;
+}
+
+.page-footer__top {
+  position: relative;
+  background-image: url('../../img/anim-bg.png');
+  background-size: cover;
+  background-color: @secondary;
+  display: flex;
+  justify-content: center;
+  color: @basic-white;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  @media (max-width: @device-md) {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  @media (max-width: @device-sm) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.page-footer__menu {
+  position: relative;
+  z-index: 0;
+  display: flex;
+  margin: 0;
+
+  @media (max-width: @device-sm) {
+    flex-direction: column;
+  }
+}
+
+.page-footer__menu-list {
+
+  &:not(:last-child) {
+    margin-right: 64px;
+  }
+
+  &:last-child {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 64px;
+
+    dt {
+      grid-column: span 2;
+    }
+  }
+
+  @media (max-width: @device-md) {
+    &:first-child {
+      margin-right: 0;
+    }
+
+    &:last-child {
+      display: flex;
+      flex-direction: column;
+      order: -1;
+      margin-right: 24px;
+    }
+  }
+
+  @media (max-width: @device-sm) {
+    &:last-child {
+      order: 1;
+      margin-top: 8px;
+    }
+  }
+}
+
+.page-footer__menu-caption {
+  .title();
+  margin-bottom: 8px;
+}
+
+.page-footer__menu-item {
+  margin-left: 0;
+  margin-bottom: 8px;
+}
+
+.page-footer__button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(calc(@desktop-width / 2 - 64px - 48px)) rotate(-90deg);
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: none;
+  }
+
+  @media (max-width: @desktop-width) {
+    transform: translateY(-50%) translateX(-100%) rotate(-90deg);
+    left: 95%;
+  }
+
+  @media (max-width: @device-lg) {
+    display: none;
+  }
+}
+
+.page-footer__bottom {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+
+  @media (max-width: @device-sm) {
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
+}
+
+.page-footer__details {
+  margin-right: 32px;
+
+  @media (max-width: @device-sm) {
+    margin: 0;
+  }
+}
+
+.page-footer__copyright {
+  width: 100%;
+  text-align: center;
+  margin-top: 32px;
+  text-transform: uppercase;
+
+  @media (max-width: @device-sm) {
+    margin-top: 16px;
+    margin-bottom: 0;
+  }
+}

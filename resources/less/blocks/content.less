@@ -1,0 +1,43 @@
+.content {
+  position: relative;
+  min-height: 22px;
+  width: 100%;
+
+  h1,
+  h2,
+  h3 {
+    .title();
+
+    &:last-of-type {
+      margin-bottom: 8px;
+    }
+  }
+
+  p {
+    margin: 0;
+
+    &:empty {
+      height: 22px;
+    }
+  }
+
+  a {
+    .button();
+    margin-top: 32px;
+  }
+
+  table {
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 4px 8px;
+    min-width: 16px;
+    border: 1px solid;
+  }
+}
+
+.action--cancel:hover+.content {
+  outline: 1px solid @error  !important;
+}

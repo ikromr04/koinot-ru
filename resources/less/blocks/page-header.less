@@ -1,0 +1,42 @@
+.page-header {
+  background-color: @basic-white;
+  z-index: 3;
+}
+
+.page-header__top {
+  display: flex;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 32px;
+
+  @media (max-width: @device-lg) {
+    padding-top: 32px;
+    padding-bottom: 24px;
+  }
+
+  @media (max-width: @device-sm) {
+    padding-top: 16px;
+    padding-bottom: 8px;
+  }
+}
+
+.page-header__logo {
+  display: block;
+  margin-right: 64px;
+
+  @media (max-width: @device-lg) {
+    margin-right: 32px;
+  }
+
+  @media (max-width: @device-md) {
+    margin-right: auto;
+  }
+}
+
+.page-header__details {
+  margin-right: auto;
+
+  @media (max-width: @device-md) {
+    display: none;
+  }
+}

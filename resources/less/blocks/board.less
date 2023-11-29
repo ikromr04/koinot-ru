@@ -1,0 +1,48 @@
+.board {
+  position: relative;
+  z-index: 0;
+  height: auto;
+  background-color: @img;
+  color: @basic-white;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  object-fit: cover;
+  min-height: 540px;
+
+  @media (max-width: @desktop-width) {
+    min-height: 400px;
+  }
+
+  @media (max-width: @device-lg) {
+    min-height: 320px;
+  }
+}
+
+.board__container {
+  padding: 32px 64px;
+
+  @media (max-width: @device-md) {
+    padding: 32px;
+  }
+
+  @media (max-width: @device-sm) {
+    padding: 24px 0;
+  }
+}
+
+.board__mask {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+
+  @media (max-width: @device-sm) {
+    display: none;
+  }
+}

@@ -1,0 +1,28 @@
+.details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+
+  @media (max-width: @device-sm) {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+}
+
+.details__item {
+  display: flex;
+  align-items: center;
+
+  @media (max-width: @device-sm) {
+    justify-self: center;
+  }
+}
+
+.details__icon {
+  display: flex;
+  width: 20px;
+  height: 20px;
+  align-items: center;
+  justify-content: center;
+  margin-right: 8px;
+}

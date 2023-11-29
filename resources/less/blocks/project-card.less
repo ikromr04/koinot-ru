@@ -1,0 +1,40 @@
+.project-card {
+  margin: 0;
+  background-color: @gray;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 64px;
+
+  @media (max-width: @device-xl) {
+    padding: 32px;
+  }
+
+  @media (max-width: @device-md) {
+    padding: 32px 16px;
+  }
+}
+
+.project-card__title {
+  .title();
+  margin-bottom: 8px;
+  text-align: center;
+  display: none;
+}
+
+.project-card__logo {
+  margin-bottom: 16px;
+  object-fit: contain;
+}
+
+.project-card__link {
+  max-width: 220px;
+  overflow: hidden;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

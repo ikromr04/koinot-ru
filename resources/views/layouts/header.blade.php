@@ -17,13 +17,13 @@
         </span>
         <span class="details__info">info@koinotinav.tj</span>
       </a>
-      <a class="details__item" href="tel:+992446000043">
+      <a class="details__item" href="https://t.me/hrkoinotinav" target="_blank">
         <span class="details__icon">
-          <svg width="17" height="16">
-            <use xlink:href="#phone"></use>
+          <svg width="16" height="16">
+            <use xlink:href="#telegram"></use>
           </svg>
         </span>
-        <span class="details__info">+992 (44) 600 00 43</span>
+        @hrkoinotinav
       </a>
     </div>
 
@@ -105,7 +105,7 @@
         </li>
 
         <li class="page-nav__item {{ $route == 'carrier' || $route == 'carrier.test' ? 'page-nav__item--current' : '' }}">
-          <a class="page-nav__link" href="{{ route('carrier') }}">
+          <a class="page-nav__link" href="https://job.koinotinav.tj/" target="_blank">
             Карьера
           </a>
         </li>
@@ -117,7 +117,7 @@
         </li>
       </ul>
 
-      <a class="carrier-link {{ $route == 'carrier' || $route == 'carrier.test' ? 'carrier-link--current' : '' }}" href="{{ route('carrier') }}">
+      <a class="carrier-link {{ $route == 'carrier' || $route == 'carrier.test' ? 'carrier-link--current' : '' }}" href="https://job.koinotinav.tj/" target="_blank">
         <span class="carrier-link__icon">
           <svg width="18" height="18">
             <use xlink:href="#pero"></use>

@@ -25,7 +25,7 @@
   </li>
   <li class="contacts-list__item">
     <h3 class="contacts-list__title">Инвестиции и развитие</h3>
-    <a class="contacts-list__phone" href="https://t.me/hrkoinotinav" target="_blank">@hrkoinotinav</a>
+    {{-- <a class="contacts-list__phone" href="https://t.me/hrkoinotinav" target="_blank">@hrkoinotinav</a> --}}
     <a class="contacts-list__email" href="mailto:info@koinotinav.tj">info@koinotinav.tj</a>
     <span class="contacts-list__icon">
       <svg width="16" height="17">

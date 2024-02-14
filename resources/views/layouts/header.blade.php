@@ -17,13 +17,13 @@
         </span>
         <span class="details__info">info@koinotinav.tj</span>
       </a>
-      <a class="details__item" href="tel:+992446000043">
+      <a class="details__item" href="https://t.me/hrkoinotinav" target="_blank">
         <span class="details__icon">
-          <svg width="17" height="16">
-            <use xlink:href="#phone"></use>
+          <svg width="16" height="16">
+            <use xlink:href="#telegram"></use>
           </svg>
         </span>
-        <span class="details__info">+992 (44) 600 00 43</span>
+        <span class="details__info">@hrkoinotinav</span>
       </a>
     </div>
 

@@ -48,7 +48,7 @@
           </a>
         </dd>
         <dd class="page-footer__menu-item">
-          <a class="page-footer__menu-link" href="{{ route('carrier') }}">
+          <a class="page-footer__menu-link" href="https://job.koinotinav.tj/" target="_blank">
             Карьера
           </a>
         </dd>

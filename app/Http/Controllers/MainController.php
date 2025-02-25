@@ -15,7 +15,7 @@ class MainController extends Controller
     $data = new stdClass();
     $data->histories = History::get();
     $data->news = News::orderBy('date', 'desc')->take(3)->get();
-    $data->projects = Project::get();
+    $data->projects = Project::latest()->get();
     $data->banners = Banner::where('page', 'main')->get();
 
     return view('pages.main.index', compact('data'));

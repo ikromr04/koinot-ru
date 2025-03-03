@@ -105,7 +105,7 @@
         </li>
 
         <li class="page-nav__item {{ $route == 'carrier' || $route == 'carrier.test' ? 'page-nav__item--current' : '' }}">
-          <a class="page-nav__link" href="https://job.koinotinav.tj/" target="_blank">
+          <a class="page-nav__link" href="https://job.koinotinav.tj/">
             Карьера
           </a>
         </li>
@@ -117,7 +117,7 @@
         </li>
       </ul>
 
-      <a class="carrier-link {{ $route == 'carrier' || $route == 'carrier.test' ? 'carrier-link--current' : '' }}" href="https://job.koinotinav.tj/" target="_blank">
+      <a class="carrier-link {{ $route == 'carrier' || $route == 'carrier.test' ? 'carrier-link--current' : '' }}" href="https://job.koinotinav.tj/">
         <span class="carrier-link__icon">
           <svg width="18" height="18">
             <use xlink:href="#pero"></use>
